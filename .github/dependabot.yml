@@ -1,0 +1,16 @@
+version: 2
+npm-npmjs:
+    type: npm-registry
+    url: https://registry.npmjs.org
+    token: ${{secrets.NPM_PACKAGE_GUYYOO}}
+updates:
+   - package-ecosystem: "npm"
+     directory: /
+     registries:
+      - npm-npmjs
+     schedule:
+        interval: "daily"
+   #   allow:
+   #      - dependency-name: "math-lib"
+   #      - dependency-name: "express"
+   #      - dependency-name: "webix"
