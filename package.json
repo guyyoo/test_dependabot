@@ -1,0 +1,28 @@
+{
+  "name": "test_dependabot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guyyoo/test_dependabot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/guyyoo/test_dependabot/issues"
+  },
+  "homepage": "https://github.com/guyyoo/test_dependabot#readme",
+  "dependencies": {
+    "math-lib": "npm:@guyyoo/math-lib@1.0.0",
+    "express": "4.17.3",
+    "webix": "9.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
