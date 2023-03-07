@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/guyyoo/test_dependabot#readme",
   "dependencies": {
-    "@guyyoo/math-lib": "^1.0.0",
+    "@guyyoo/math-lib": "^1.0.1",
     "express": "^4.18.2",
     "webix": "^9.4.0"
   },
