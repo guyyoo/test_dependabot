@@ -20,7 +20,7 @@
   "dependencies": {
     "@guyyoo/math-lib": "^1.0.0",
     "express": "^4.17.3",
-    "webix": "^9.4.0"
+    "webix": "^10.0.1"
   },
   "devDependencies": {
     "nodemon": "^2.0.20"
